@@ -1,5 +1,5 @@
 import React from "react";
-import { FlowNode } from "../../types/flow";
+import {type FlowNode } from "../../types/flow";
 import { X, Database, Zap, Target } from "lucide-react";
 import { Button } from "../ui/Button";
 

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Theme } from "../types/common";
+import type {Theme} from "../types/common";
 
 export const useTheme = () => {
   const [theme, setTheme] = useState<Theme>("light");

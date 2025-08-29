@@ -1,4 +1,4 @@
-import { BaseEntity } from "./common";
+import type {BaseEntity} from "./common";
 
 export interface Message extends BaseEntity {
   content: string;

@@ -1,4 +1,4 @@
-import { FlowNode } from "../types/flow";
+import type {FlowNode} from "../types/flow";
 
 const sourceKeywords = [
   "shopify",
@@ -81,7 +81,7 @@ const capitalizeFirst = (str: string): string => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-export const simulateAIResponse = (userMessage: string): string => {
+export const simulateAIResponse = (): string => {
   const responses = [
     "Great! Let's set up a data flow to connect Shopify to BigQuery. I'll need some details to configure this properly.",
     "Perfect! I can help you sync Salesforce contacts to Mailchimp. What specific contact fields would you like to sync?",

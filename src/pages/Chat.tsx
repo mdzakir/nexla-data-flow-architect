@@ -33,7 +33,7 @@ export const Chat: React.FC = () => {
 
     // Simulate AI response
     setTimeout(() => {
-      const aiResponse = simulateAIResponse(message);
+      const aiResponse = simulateAIResponse();
       addMessage(aiResponse, "ai");
       setLoading(false);
     }, 1500);

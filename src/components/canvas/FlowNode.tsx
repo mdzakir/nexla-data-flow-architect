@@ -1,5 +1,5 @@
 import React from "react";
-import { FlowNode as FlowNodeType } from "../../types/flow";
+import {type FlowNode as FlowNodeType } from "../../types/flow";
 import { clsx } from "clsx";
 import { Database, Zap, Target, Circle } from "lucide-react";
 

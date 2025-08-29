@@ -1,7 +1,7 @@
 import { create } from "zustand";
-import { FlowState, FlowNode } from "../types/flow";
+import type {FlowState, FlowNode} from "../types/flow";
 
-export const useCanvasStore = create<FlowState>((set, get) => ({
+export const useCanvasStore = create<FlowState>((set) => ({
   nodes: [],
   selectedNode: null,
 

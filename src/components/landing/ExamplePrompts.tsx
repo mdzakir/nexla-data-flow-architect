@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "../ui/Button";
 import { useChatStore } from "../../store/chatStore";
 import { Database, Mail, CreditCard, Lightbulb } from "lucide-react";
 
