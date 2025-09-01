@@ -4,6 +4,6 @@ export interface BaseEntity {
   updatedAt: Date;
 }
 
-export type Theme = "light" | "dark";
+export type Theme = "light" | "dark" | "system";
 
 export type Status = "pending" | "partial" | "complete" | "error";

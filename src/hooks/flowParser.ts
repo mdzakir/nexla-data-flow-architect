@@ -1,4 +1,4 @@
-import type {FlowNode} from "../types/flow";
+import type { FlowNode } from "../types/flow";
 
 const sourceKeywords = [
   "shopify",
